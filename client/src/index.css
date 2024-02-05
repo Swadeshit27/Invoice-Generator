@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-semibold rounded-md w-24 text-center py-2  me-4 cursor-pointer capitalize;
+  }
+}
